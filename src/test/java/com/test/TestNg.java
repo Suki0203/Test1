@@ -16,7 +16,7 @@ public class TestNg {
 		WebDriverManager.chromedriver().setup();
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.amazon.in/");
 
 	}
 	@Test(priority=1)
